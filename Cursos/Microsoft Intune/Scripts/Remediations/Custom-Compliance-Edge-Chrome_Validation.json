@@ -1,0 +1,42 @@
+﻿{
+  "Rules": [
+    {
+      "SettingName": "EdgeInstalledVersion",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "127.0.2651.98",
+      "MoreInfoUrl": "https://support.microsoft.com/en-us/microsoft-edge",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Update Required",
+          "Description": "The installed version of Microsoft Edge is out of date. Please update to version 127.0.2651.98."
+        },
+        {
+          "Language": "pt_BR",
+          "Title": "Atualização é necessária",
+          "Description": "A versão do Microsoft Edge instalada está desatualizada.Por favor atualize para a versão 127.0.2651.98."
+        }
+      ]
+    },
+    {
+      "SettingName": "ChromeInstalledVersion",
+      "Operator": "IsEquals",
+      "DataType": "String",
+      "Operand": "127.0.6533.100",
+      "MoreInfoUrl": "https://support.google.com/chrome",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Update Required",
+          "Description": "The installed version of Google Chrome is out of date. Please update to version 127.0.6533.100."
+        },
+          {
+          "Language": "pt_BR",
+          "Title": "Atualização é necessária",
+          "Description": "A versão do Chrome instalada está desatualizada. Por favor atualize para a versão 127.0.6533.1008."
+        }
+      ]
+    }
+  ]
+}
